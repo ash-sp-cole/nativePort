@@ -1,28 +1,36 @@
 import React from 'react';
 import {Item, Container,Header, Image , Label,Icon, Button, Step} from 'semantic-ui-react';
+import lastStand from'../Projects/lastScreenShot.PNG'
+
+
 
 const Projects = () =>{
 
+
+
     return(
         <div>
-               <Header as='h3' content='Responsive Item'textAlign='center' />
+              
+               <Header as='h1' content='Past Work'textAlign='center' style={{paddingTop:'5%',paddingBottom:'5%'}}/>
     <Container>
       <Item.Group divided>
         <Item>
-          <Item.Image src='/images/wireframe/image.png' />
+          <Item.Image src={lastStand}/>
           <Item.Content>
-            <Item.Header as='a'>Content Header</Item.Header>
+            <Item.Header as='a'>Professional Websites for a variety of clients </Item.Header>
             <Item.Meta>
-              <span>Date</span>
-              <span>Category</span>
+              <span>Restuarants, e-commerce , production testing</span>
+              
             </Item.Meta>
             <Item.Description>
-              A description which may flow for several lines and give context to the content.
+            Working with clients to create a unique and meaningful digital experience for customers. Utilizing a variety of current technologies
+to bring digitalisation to upcoming brands. My work has also included optimizing WordPress for clients to produce and customize their sites on a real-time basis.
+Using Api's such as 'Toast-tab' P.O.S system and "GoogleAuth" to further extend the reach and possibility of e-commerce sites.
+
+
             </Item.Description>
-            <Item.Extra>
-              <Image avatar circular src='/images/wireframe/square-image.png' />
-              Username
-            </Item.Extra>
+         
+           
           </Item.Content>
         </Item>
 
@@ -67,20 +75,9 @@ const Projects = () =>{
         </Item>
       </Item.Group>
     </Container>
-    <Header as='h3' content='Responsive Steps'textAlign='center' />
+    
 
-    <Container>
-      <Step.Group fluid>
-        <Step icon='plane' title='Shipping' description='Choose your shipping options' />
-        <Step active icon='dollar' title='Billing' description='Enter billing information' />
-        <Step
-          disabled
-          icon='info circle'
-          title='Confirm Order'
-          description='Verify order details'
-        />
-      </Step.Group>
-    </Container>
+ 
         </div>
     )
 }

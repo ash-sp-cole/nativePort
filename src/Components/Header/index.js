@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Dropdown,Grid, Icon,Image,Menu } from 'semantic-ui-react'
+import { Icon,Menu } from 'semantic-ui-react'
+import {Link} from 'react-router-dom';
+
 
 export default class Header extends Component {
   state = { activeItem: 'account' }
@@ -16,6 +18,7 @@ export default class Header extends Component {
           name='code'
           active={activeItem === 'code'}
           onClick={this.handleItemClick}
+          as={Link} to="/about"
         >
           <Icon name='code' />
           About me
@@ -25,6 +28,7 @@ export default class Header extends Component {
           name='home'
           active={activeItem === 'home'}
           onClick={this.handleItemClick}
+          as={Link} to="/"
         >
           <Icon name='home' />
           Home
@@ -34,6 +38,7 @@ export default class Header extends Component {
           name='book'
           active={activeItem === 'book'}
           onClick={this.handleItemClick}
+          as={Link} to='/projects'
         >
           <Icon name='book' />
           Projects
