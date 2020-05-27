@@ -20,7 +20,7 @@ export default class Header extends Component {
           onClick={this.handleItemClick}
           as={Link} to="/about"
         >
-          <Icon name='code' />
+          <Icon name='code'/>
           About me
         </Menu.Item>
 
@@ -31,7 +31,7 @@ export default class Header extends Component {
           as={Link} to="/"
         >
           <Icon name='home' />
-          Home
+          
         </Menu.Item>
 
         <Menu.Item

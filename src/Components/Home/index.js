@@ -33,30 +33,30 @@ class Projects extends Component {
 
             <div>
 
-                <Header as='h1' content='Ashley Simon Peter Cole' textAlign='center' style={{ paddingTop: '3%', paddingBottom: '3%' }} />
-                <Container >
+                <Header as='h1'  textAlign='center' style={{ paddingTop: '3%', paddingBottom: '3%' }} />
+                <Container>
 
                     <Item.Group divided >
                         <Item>
 
                             <Item.Content>
-                                <Item.Header as='a'>Welcome </Item.Header>
+                                <Item.Header as='a'><h1 style={{fontSize:'5em', color:'white'}}>Welcome</h1> </Item.Header>
                                 <Item.Meta>
 
-                                    <span>
-                                        Freelance web developer - Highly experienced in creating custom websites.
+                                    <span style={{fontSize:'2.5em'}}>
+                                        Freelance web developer - <br></br>
               </span>
 
                                 </Item.Meta>
-                                <Item.Description style={{ paddingBottom: '2%' }}>
-                                    A description which may flow for several lines and give context to the content.
+                                <Item.Description style={{ paddingBottom: '2%', fontSize:'2em' }}>
+                                
             </Item.Description>
 
                             </Item.Content>
                         </Item >
 
 
-
+               
 
                         <Item style={{ textAlign: 'center' }}>
 
@@ -69,7 +69,7 @@ class Projects extends Component {
                                     <Popup content='Click to explore my stack' trigger={
 
 
-                                        <span>Experienced in a variety of Front and Back end technologies</span>
+                                        <span style={{fontSize:'1.5em', fontWeight:'bold',color:'#241e2a'}}>Experienced in a variety of Front and Back end technologies</span>
                                     } />
                                 </Item.Meta>
                                 <Item.Description>
@@ -77,12 +77,13 @@ class Projects extends Component {
                                 </Item.Description>
                                 <br></br>
                                 <Button animated
-                                    fluid
+                                    
                                     content={visible ? 'Hide' : 'Show'}
+                                    style={{background:'#241e2a', fontWeight:'bold', borderRadius:'25px'}}
                                     onClick={this.toggleVisibility}>
-                                    <Button.Content visible>  <h3>Explore</h3></Button.Content>
-                                    <Button.Content hidden>
-                                        <Icon name='arrow right' />
+                                    <Button.Content visible  >  <h1 style={{fontSize:'4em', color:'white'}}>Explore</h1></Button.Content>
+                                    <Button.Content hidden >
+                                        <Icon name='arrow right'size="large" color="teal"/>
                                     </Button.Content>
                                 </Button>
 
@@ -145,6 +146,7 @@ class Projects extends Component {
                                 </Transition>
                             </Item.Content>
                         </Item>
+                        
 
                         <Sidebar.Pushable>
                             <Sidebar
@@ -193,16 +195,15 @@ class Projects extends Component {
                                 </Responsive>
 
                             </Sidebar>
-
                             <Sidebar.Pusher>
 
-
-                                <Item style={{ textAlign: 'right' }}>
+                            
+                                <Item.Group diveded style={{ textAlign: 'right' }}>
 
                                     <Item.Content>
 
                                         <Item.Meta>
-                                            <h1>Social</h1>
+                                            <h1 style={{fontSize:'7em', color:'white'}}>Social</h1>
 
                                         </Item.Meta>
                                         <Item.Description>
@@ -211,17 +212,22 @@ class Projects extends Component {
                                         <Item.Extra>
                                           
                                             <Button animated='vertical'
+                                            size="large"
                                                 floated='right' onClick={this.toggleSidebar}
-                                                style={{marginTop:'5px'}}
+                                                style={{marginTop:'5px', 
+                                                background:'#241e2a', 
+                                                fontWeight:'bold', 
+                                                borderRadius:'25px',
+                                            }}
                                             >
-                                                <Button.Content hidden>View</Button.Content>
+                                                <Button.Content hidden style={{color:'white'}}>View</Button.Content>
                                                 <Button.Content visible>
-                                                    <Icon name='coffee' />
+                                                    <Icon name='coffee'color='teal' />
                                                 </Button.Content>
                                                 </Button>
                                         </Item.Extra>
                                     </Item.Content>
-                                </Item>
+                                </Item.Group>
 
 
                             </Sidebar.Pusher>
