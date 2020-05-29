@@ -43,7 +43,7 @@ const Projects = () => {
                     </Card.Content>
                   </Card>
                   <Popup content='Go to last stand tavern' trigger={
-                    < a target='_blank' href="http://www.laststandtavern.com">
+                    < a target='_blank' rel="noopener noreferrer" href="http://www.laststandtavern.com">
                       <Button>
                         Visit
                     </Button>
@@ -63,7 +63,7 @@ const Projects = () => {
                     </Card.Content>
                   </Card>
                   <Popup content='go to site (some content removed for NDA)' trigger={
-                    < a target='_blank' href="https://ash-sp-cole.github.io/commerzbank/">
+                    < a target='_blank' rel="noopener noreferrer" href="https://ash-sp-cole.github.io/commerzbank/">
                       <Button>
                         Visit
                     </Button>
@@ -219,7 +219,7 @@ const Projects = () => {
 </Card.Description>
                     </Card.Content>
                   </Card>
-                  <a target='_blank' href='https://github.com/ash-sp-cole/LiriBot'>
+                  <a target='_blank'  rel="noopener noreferrer" href='https://github.com/ash-sp-cole/LiriBot'>
                   <Button>View Code</Button>
                   </a>
                 </Grid.Column>
@@ -235,7 +235,7 @@ const Projects = () => {
 </Card.Description>
                     </Card.Content>
                   </Card>
-                  <a target='_blank' href='https://github.com/ash-sp-cole/BamazoN'>
+                  <a target='_blank'  rel="noopener noreferrer"href='https://github.com/ash-sp-cole/BamazoN'>
                   <Button>View Code</Button>
                   </a>
                 </Grid.Column>
