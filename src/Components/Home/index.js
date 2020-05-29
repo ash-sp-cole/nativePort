@@ -40,7 +40,7 @@ class Projects extends Component {
                         <Item>
 
                             <Item.Content>
-                                <Item.Header as='a'><h1 style={{fontSize:'5em', color:'white'}}>Welcome</h1> </Item.Header>
+                                <Item.Header ><h1 style={{fontSize:'5em', color:'white'}}>Welcome</h1> </Item.Header>
                                 <Item.Meta>
 
                                     <span style={{fontSize:'2.5em'}}>
