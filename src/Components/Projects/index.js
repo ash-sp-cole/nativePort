@@ -8,7 +8,8 @@ import jackSprite from '../Projects/jackSprite.PNG';
 import proFront from '../Projects/proFront.PNG';
 import bankFront from '../Projects/bankFront.PNG';
 import streamFront from '../Projects/streamFront.PNG';
-
+import liriFront from '../Projects/liriFront.png';
+import codeFront from '../Projects/codeFront.PNG';
 const Projects = () => {
 
 
@@ -202,7 +203,7 @@ const Projects = () => {
           <Item>
 
             <Popup position='top left'
-              trigger={<Item.Image src={lastStand}
+              trigger={<Item.Image src={codeFront}
 
               />} flowing hoverable>
               <Grid centered divided columns={3}>
@@ -210,65 +211,44 @@ const Projects = () => {
 
                 <Grid.Column textAlign='center'>
                   <Card>
-                    <Image src={lastStand} />
+                    <Image src={liriFront} />
                     <Card.Content>
-                      <Card.Header>Last Stand Taven</Card.Header>
+                      <Card.Header>Liri Bot</Card.Header>
                       <Card.Description>
-                        American based restuarant, set in a beautiful scenic location.
-                        A simple but creative website to help with online sales during recent global events.
+                        A Command line interface to scrape for songs, movies from various Api's
 </Card.Description>
                     </Card.Content>
                   </Card>
-                  <Button>Choose</Button>
+                  <a target='_blank' href='https://github.com/ash-sp-cole/LiriBot'>
+                  <Button>View Code</Button>
+                  </a>
                 </Grid.Column>
 
-
+            
                 <Grid.Column textAlign='center'>
                   <Card>
-                    <Image src={lastStand} />
+                    <Image src={codeFront} />
                     <Card.Content>
-                      <Card.Header>My Neighbor Totoro</Card.Header>
+                      <Card.Header>B-amazon</Card.Header>
                       <Card.Description>
-                        Two sisters move to the country with their father in order to be
-                        closer to their hospitalized mother, and discover the surrounding
-                        trees are inhabited by magical spirits.
+                        An e-commerce commandline project, using SQL.
 </Card.Description>
                     </Card.Content>
                   </Card>
-                  <Button>Choose</Button>
-                </Grid.Column>
-
-
-
-
-                <Grid.Column textAlign='center'>
-                  <Card>
-                    <Image src={lastStand} />
-                    <Card.Content>
-                      <Card.Header>My Neighbor Totoro</Card.Header>
-                      <Card.Description>
-                        Two sisters move to the country with their father in order to be
-                        closer to their hospitalized mother, and discover the surrounding
-                        trees are inhabited by magical spirits.
-</Card.Description>
-                    </Card.Content>
-                  </Card>
-                  <Button>Choose</Button>
+                  <a target='_blank' href='https://github.com/ash-sp-cole/BamazoN'>
+                  <Button>View Code</Button>
+                  </a>
                 </Grid.Column>
               </Grid>
             </Popup>
             <Item.Content>
-              <Item.Header >Professional Websites for a variety of clients </Item.Header>
+              <Item.Header >Command Line interfaces </Item.Header>
               <Item.Meta>
-                <span>Restuarants, e-commerce , production testing</span>
+                <span>Simple projects using a variety of technologies to explore command line potential.</span>
 
               </Item.Meta>
               <Item.Description>
-                Working with clients to create a unique and meaningful digital experience for customers. Utilizing a variety of current technologies
-                to bring digitalisation to upcoming brands. My work has also included optimizing WordPress for clients to produce and customize their sites on a real-time basis.
-                Using Api's such as 'Toast-tab' P.O.S system and "GoogleAuth" to further extend the reach and possibility of e-commerce sites.
-
-
+               
 </Item.Description>
 
 
