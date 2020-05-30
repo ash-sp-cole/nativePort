@@ -150,13 +150,14 @@ class Projects extends Component {
 
                         <Sidebar.Pushable>
                             <Sidebar
-                                style={{ width: '60vw' }}
+                              
                                 as={Menu}
                                 animation='scale down'
                                 icon='labeled'
                                 style={{
                                     background: 'none',
                                     border: 'none',
+                                    width: '60vw'
 
                                 }}
 
@@ -168,12 +169,12 @@ class Projects extends Component {
                                 <Responsive>
                                     <Grid columns='equal' style={{ width: '100%', height: '100%' }}>
                                         <Grid.Column style={{ height: '100%' }}>
-                                            <a href="https://www.linkedin.com/in/ash-cole-web/" target="_blank" style={{color:'inherit'}}>
+                                            <a href="https://www.linkedin.com/in/ash-cole-web/"  rel="noopener noreferrer" target="_blank" style={{color:'inherit'}}>
                                             <Icon name='linkedin' size='huge'/>
                                             </a>
                                         </Grid.Column>
                                         <Grid.Column>
-                                        <a href="https://github.com/ash-sp-cole" target="_blank" style={{color:'inherit'}}>
+                                        <a href="https://github.com/ash-sp-cole" rel="noopener noreferrer" target="_blank" style={{color:'inherit'}}>
                                             <Icon name='github' size='huge' />
                                             </a>
                                         </Grid.Column>
@@ -198,7 +199,7 @@ class Projects extends Component {
                             <Sidebar.Pusher>
 
                             
-                                <Item.Group diveded style={{ textAlign: 'right' }}>
+                                <Item.Group  style={{ textAlign: 'right' }}>
 
                                     <Item.Content>
 
