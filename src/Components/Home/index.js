@@ -169,6 +169,7 @@ class Projects extends Component {
                                 <Responsive>
                                     <Grid columns='equal' style={{ width: '100%', height: '100%' }}>
                                         <Grid.Column style={{ height: '100%' }}>
+                                            
                                             <a href="https://www.linkedin.com/in/ash-cole-web/"  rel="noopener noreferrer" target="_blank" style={{color:'inherit'}}>
                                             <Icon name='linkedin' size='huge'/>
                                             </a>

@@ -56,7 +56,8 @@ const Projects = () => {
                   <Card>
                     <Image src={bankFront} />
                     <Card.Content>
-                      <Card.Header>A new take on digitalization </Card.Header>
+                      <Card.Header>A New 
+                        Digital </Card.Header>
                       <Card.Description>
                         Creating concepts for various projects and stages of a companies lifecycle.
           </Card.Description>
@@ -170,7 +171,8 @@ const Projects = () => {
                     <Card.Content>
                       <Card.Header>Custom Sprites</Card.Header>
                       <Card.Description>
-                        Player changes appearance based on interactions within the game environment.Conditional based rendering to show progression
+                        Player changes appearance based on interactions within the game environment.
+                        Conditional based rendering to show progression
 </Card.Description>
                     </Card.Content>
                   </Card>
